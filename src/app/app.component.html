@@ -1,0 +1,5 @@
+<html>
+<h1>Fruits Shopping Cart</h1>
+<app-registration (onNewRegistration)="newItem($event)" class="left"></app-registration>
+<app-formtable [cart]="cart" (onDeleteItem)="registrationDeleted($event)" class="right"></app-formtable>
+</html>

@@ -1,0 +1,13 @@
+.box-it {
+    padding: 10px;
+    margin: 10px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+  }
+  table, th, td {
+    width: 80%;
+    border: 1px solid black;
+  }
